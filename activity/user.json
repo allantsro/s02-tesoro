@@ -1,0 +1,39 @@
+[	{
+		    "_id" : "631d83ffb8f334dd4d21cb8b",
+		    "id":"user1",
+		    "username" : "atesoro",
+		    "firstName" : "Allan Lowie",
+		    "lastName" : "Tesoro",
+		    "email" : "allanr@gmail.com",
+		    "password" : "AbCdZyXw102938",
+		    "mobileNumber" : "09986271170",
+		    "isAdmin" : false,
+		    "enrollments" : [ 
+        			{
+            "enrollmentId" : "enrollment1",
+            "courseId" : "course1",
+            "dateEnrolled" : "09/11/2022",
+            "isPaid" : true
+        			}			
+   						 	]
+			},
+			{
+		    "_id" : "631d888ab8f334dd4d21cfb5",
+		    "id" : "user2",
+		    "username" : "cmmartinez",
+		    "firstName" : "Coleen Margaret",
+		    "lastName" : "Martinez",
+		    "email" : "cmmartinez@gmail.com",
+		    "password" : "12qwaszxc345ertdfgvbn",
+		    "mobileNumber" : "09774325664",
+		    "isAdmin" : false,
+		    "enrollments" : [ 
+       			 {
+            "enrollmentId" : "enrollment2",
+            "courseId" : "course2",
+            "dateEnrolled" : "09/01/2022",
+            "isPaid" : true
+        		}
+   							 ]
+			}
+		]

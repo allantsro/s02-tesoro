@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Database</title>
+</head>
+<body>
+	<script type="text/javascript">
+		let user = `[
+			{
+		    "_id" : "631d83ffb8f334dd4d21cb8b",
+		    "id" : "user1",
+		    "username" : "atesoro",
+		    "firstName" : "Allan Lowie",
+		    "lastName" : "Tesoro",
+		    "email" : "allanr@gmail.com",
+		    "password" : "AbCdZyXw102938",
+		    "mobileNumber" : "09986271170",
+		    "isAdmin" : false,
+		    "enrollments" : [ 
+		        {
+	            "enrollmentId" : "enrollment1",
+	            "courseId" : "course1",
+	            "dateEnrolled" : "09/11/2022",
+	            "isPaid" : true
+        		}		
+   						 	]
+			},
+			{
+		    "_id" : "631d888ab8f334dd4d21cfb5",
+		    "id" : "user2",
+		    "username" : "cmmartinez",
+		    "firstName" : "Coleen Margaret",
+		    "lastName" : "Martinez",
+		    "email" : "cmmartinez@gmail.com",
+		    "password" : "12qwaszxc345ertdfgvbn",
+		    "mobileNumber" : "09774325664",
+		    "isAdmin" : false,
+		    "enrollments" : [ 
+       			 {
+	            "enrollmentId" : "enrollment2",
+	            "courseId" : "course2",
+	            "dateEnrolled" : "09/01/2022",
+	            "isPaid" : true
+        		}
+   							 ]
+			}
+		]`
+
+		let course = `[
+			{
+		    "_id" : "631d8589b8f334dd4d21cc9e",
+		    "id" : "course1",
+		    "courseName" : "Mathematics In The Modern World",
+		    "description" : "Learn Mathematics and Its applications to the modern world",
+		    "price" : " 5000php ",
+		    "slots" : "40",
+		    "schedule" : "M-F 13:00-15:00",
+		    "instructor" : "Mr. Ted Lowry",
+		    "isActive" : true
+			},
+			{
+		    "_id" : "631d85d7b8f334dd4d21ccd0",
+		    "id" : "course2",
+		    "courseName" : "Intermediate Programming ",
+		    "description" : "Learn to Program at an Advanced Level",
+		    "price" : "10000php",
+		    "slots" : "40",
+		    "schedule" : "F-Sat 8:00-10:00",
+		    "instructor" : "Mr. Rico Boyer",
+		    "isActive" : true
+			}
+			{
+		    "_id" : "631d8621b8f334dd4d21cd0b",
+		    "id" : "course3",
+		    "courseName" : "Art Appreciation",
+		    "description" : "Learn ways to innovate and analyze Art of every form",
+		    "price" : "4000php",
+		    "slots" : "30",
+		    "schedule" : "TTF 11:00-12:00",
+		    "instructor" : "Mrs. Madeleine Green",
+		    "isActive" : true
+			}
+		]`
+		console.log(JSON.parse(user)[0].id);
+		console.log(course);
+	</script>
+	
+</body>
+</html>
